@@ -1,0 +1,97 @@
+/* light css reset */
+* { margin : 10px; padding : 0; }
+
+/*h2, h3, h4, h5, p, ul, ol  { margin : 0 20px; padding : .5em 0; }
+img { border: 0px;} */
+body {
+
+    font-family: 'Lato', sans-serif;    
+    font-weight: 300;
+    width: 90%;
+    margin-top: 0.5%;
+    margin-left: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.header-class {
+    width: 100%;
+    display: flex;  
+    
+}
+
+#pagelogo {
+    text-align: left;
+    margin: 2%;
+}
+
+#pagedescription {
+    width: 100%;
+    text-align: right;
+    text-transform: uppercase;
+
+}
+
+.article-class, .section-class, .aside-class {
+    width: 100%;
+    height: 20px;
+    float: left;
+    margin: 0.2%;
+   
+}
+
+#pageHeader, #middlesection, #sub-header, #contentContainer {
+    margin: 2%;
+
+}
+
+#pageArticle, #pageSection, #pageAside {
+    margin: 0.5%;
+}
+
+.middle-class {
+    
+    width: 100%;
+    display: flex;
+    
+}
+
+.bottom-class {
+    display: flex;
+    text-align: center;
+}
+
+.lower-section {
+    text: text-muted;
+}
+
+/* =page level container */
+#pageContainer {
+    margin: 0px auto 0px auto;
+	width: 100%;
+}
+
+#pageHeader {
+    margin:0px auto 0px auto;
+    width:100%;
+    height:82px;
+    position:relative;    
+}
+
+
+#contentContainer {
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    min-height: 500px;
+}
+
+.pageFooter {
+    margin: 0px auto;
+    padding-bottom: 20px;
+	width: 100%;
+	position: relative;
+    text-align: left;
+}
+
